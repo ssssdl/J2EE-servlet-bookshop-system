@@ -1,0 +1,166 @@
+!SESSION 2018-11-21 18:04:36.872 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2018-11-21 18:04:44.080
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-11-21 18:04:44.080
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@d311da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:04:45.281
+!MESSAGE NLS unused message: prompt.optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:04:45.281
+!MESSAGE NLS unused message: prompt.preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:04:45.281
+!MESSAGE NLS unused message: prompt.optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY com.genuitec.eclipse.core 1 0 2018-11-21 18:04:45.780
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-11-21 18:04:45.858
+!MESSAGE Installed snippet library: C:\Users\SDL\AppData\Local\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-11-21 18:04:45.889
+!MESSAGE Installed snippet library: C:\Users\SDL\AppData\Local\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-11-21 18:04:45.905
+!MESSAGE Installed snippet library: C:\Users\SDL\AppData\Local\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-11-21 18:04:45.920
+!MESSAGE Installed snippet library: C:\Users\SDL\AppData\Local\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-11-21 18:04:45.952
+!MESSAGE Installed snippet library: C:\Users\SDL\AppData\Local\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-11-21 18:04:45.967
+!MESSAGE Installed snippet library: C:\Users\SDL\AppData\Local\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-11-21 18:04:45.983
+!MESSAGE Installed snippet library: C:\Users\SDL\AppData\Local\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-11-21 18:04:46.014
+!MESSAGE Installed snippet library: C:\Users\SDL\AppData\Local\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-11-21 18:04:46.030
+!MESSAGE Installed snippet library: C:\Users\SDL\AppData\Local\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-11-21 18:04:46.045
+!MESSAGE Installed snippet library: C:\Users\SDL\AppData\Local\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2018-11-21 18:04:46.076
+!MESSAGE Installed snippet library: C:\Users\SDL\AppData\Local\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.maven.ide.eclipse 4 0 2018-11-21 18:05:54.784
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: errorInternalCactus in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: LaunchTestAction_message_selectConfiguration in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: LaunchTestAction_message_selectDebugConfiguration in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: LaunchTestAction_message_selectRunConfiguration in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WindowTitle in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_ErrorMessageTitleMissingLibrary in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_ErrorMessageMissingLibrary in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_ErrorTitleNew in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_ErrorTitleCreateOfElementFailed in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_ErrorMessageSeeErrorLog in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningMessageSelectAWebProject in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningTitleWebProjectRequired in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningMessageSuperclassIsEmpty in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningMessageSuperclassDoesNotExist in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningMessageSuperclassIsInterface in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: NewServletTestCaseWizard_WarningMessageSuperclassNotServletTestCase in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_ErrorMessageCouldntInstallLibraries in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_ErrorMessageCactusBundleNotFound in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_ErrorMessageDestDirNotFound in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_ErrorMessageInstallationOfLibsFailed in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_ErrorMessageInstallDirNotFound in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_AdditionalInfoAddCactusLibraries in: org.eclipse.jst.server.ui.internal.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2018-11-21 18:13:02.209
+!MESSAGE NLS missing message: CactusAddLibrariesProposal_DisplayStringAddCactusLibs in: org.eclipse.jst.server.ui.internal.Messages
